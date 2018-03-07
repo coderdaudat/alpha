@@ -232,3 +232,7 @@
 		jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'light_square',slideshow:false,overlay_gallery: false,social_tools:false,deeplinking:false});
 	}); 
 })(jQuery);
+
+$('#navigation-container > #nav .container ul li a').click(function () {
+	location.href = $(this).attr('href');
+});

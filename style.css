@@ -434,7 +434,8 @@
 		transform:translate(-50%,-50%);
 		display:inline-block;width:700px; 
 		padding:50px;
-		border-radius:4px;
+		border-radius:20px;
+		background-color: #00000085;
 	}
 	.home-content h1 {
 		font-size:600%;
@@ -1850,4 +1851,18 @@
 	.form-control:focus {
 		-webkit-box-shadow: 0 2px 0 #b32945;
 		box-shadow: 0 2px 0 #b32945;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: Tomaha!important;
+	}
+	p.chi-tiet-gioi-thieu {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 5;
+		overflow: hidden;
+		transition-property: -webkit-line-clamp;
+		transition-duration: 2s;
+	}
+	.service-second:hover p.chi-tiet-gioi-thieu {
+		-webkit-line-clamp: 100;
 	}
